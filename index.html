@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi Tarjeta CSS</title>
+        <!-- He usado un archivo CSS aparte porque me parece más cómodo tener los estilos separados del HTML. -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- He usado un div para toda la tarjeta porque así puedo ponerle un borde a todo el conjunto. -->
+        <div class="tarjeta">
+            <!-- He usado header porque me parece una buena forma de separar mi presentación del resto de la información. -->
+            <header class="cabecera">
+                <!-- He dejado la foto encima del nombre porque me parece que queda más ordenado. -->
+                <img class="foto" src="foto.png" alt="Foto de David">
+                <h1>David</h1>
+                <!-- He usado un p debajo del nombre porque quería poner mis estudios en una línea aparte. -->
+                <p>Estudiante de SMR</p>
+            </header>
+            <!-- He usado main para esta parte porque aquí está la información principal sobre mí. -->
+            <main class="contenido">
+                <!-- He usado un párrafo para la descripción porque me parece la forma más sencilla de contar mis gustos. -->
+                <p class="descripcion" id="descripcion">
+                    Me gusta la informática, los videojuegos y aprender a programar.
+                    Estoy estudiando SMR y quiero seguir mejorando mis conocimientos
+                    sobre ordenadores y páginas web.
+                </p>
+                <!-- He puesto mis intereses juntos en un párrafo porque ocupan poco y se leen fácilmente. -->
+                <p class="etiquetas">HTML · CSS · Informática · Videojuegos</p>
+                <!-- He usado una section para el contacto porque me parece mejor tener todos esos datos juntos. -->
+                <section class="contacto">
+                    <h2>Contacto</h2>
+                    <!-- He separado los datos en párrafos y he usado strong porque así se distingue mejor qué es cada dato. -->
+                    <p><strong>Email:</strong> davidmanzaneda12@gmail.com</p>
+                    <p><strong>Tel:</strong> 607831345</p>
+                    <p><strong>Ciudad:</strong> Pamplona</p>
+                </section>
+            </main>
+            <!-- He usado footer porque quería dejar el enlace y el texto de la actividad al final. -->
+            <footer class="pie">
+                <!-- He usado un enlace a mi descripción porque quería que el botón llevara a una parte de la tarjeta. -->
+                <a class="boton" href="#descripcion">Ver perfil</a>
+                <p>Actividad CSS · Modelo de caja</p>
+            </footer>
+        </div>
+    </body>
+</html>

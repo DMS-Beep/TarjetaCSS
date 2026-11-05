@@ -1,0 +1,95 @@
+/* He usado padding y margin porque me parece que la tarjeta se lee mejor cuando el texto tiene espacio. También he usado border para distinguir los recuadros. */
+
+body {
+    background-color: lightgray;
+    font-family: Arial;
+    color: black;
+}
+
+/* He elegido una tarjeta blanca y centrada porque me parece que destaca bien sobre el fondo gris. */
+.tarjeta {
+    width: 420px;
+    margin: 30px auto;
+    background-color: white;
+    border: 1px solid gray;
+    /* He elegido las esquinas redondas porque me gusta más cómo queda la tarjeta. */
+    border-radius: 15px;
+}
+
+/* He elegido un degradado de azul a azul claro porque me gusta cómo quedan juntos y se parece más al modelo. */
+.cabecera {
+    background: linear-gradient(135deg, #347fee, #5ecbe7);
+    border-radius: 15px 15px 0 0;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+/* He reducido los espacios del nombre y los estudios porque la cabecera quedaba demasiado alta. */
+.cabecera h1 {
+    margin: 8px 0;
+}
+
+.cabecera p {
+    margin: 5px 0;
+}
+
+/* He dejado la foto de este tamaño porque no quería que ocupara demasiado. El borde blanco ayuda a separarla del fondo azul. */
+.foto {
+    width: 130px;
+    border: 4px solid white;
+    border-radius: 35px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* He usado padding porque sin ese espacio el texto quedaba demasiado cerca de los bordes. */
+.contenido {
+    padding: 15px;
+}
+
+.descripcion {
+    margin-bottom: 20px;
+}
+
+.etiquetas {
+    color: steelblue;
+}
+
+/* He elegido un fondo claro para el contacto porque quería distinguirlo de la descripción sin cambiar mucho el diseño. */
+.contacto {
+    background-color: papayawhip;
+    border: 1px solid orange;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.pie {
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.boton {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* He usado hover porque me parece útil que el botón cambie de color cuando paso el ratón por encima. */
+.boton:hover {
+    background-color: navy;
+}
+
+.pie p {
+    font-size: 14px;
+    color: gray;
+}
