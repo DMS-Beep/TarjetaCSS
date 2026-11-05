@@ -58,8 +58,12 @@ h2 {
     margin-bottom: 20px;
 }
 
-.etiquetas {
+.etiquetas span {
     color: steelblue;
+    border : 1px solid #87bfff;
+    border-radius: 15px;
+    padding: 4px 10px;
+    background-color:aliceblue;
 }
 
 /* He elegido un fondo claro para el contacto porque quería distinguirlo de la descripción sin cambiar mucho el diseño. */
